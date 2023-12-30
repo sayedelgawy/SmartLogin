@@ -1,0 +1,61 @@
+body {
+  background: #24353f;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* <signin and signup pages> */
+.login-box, .signup-box, .welcome-box {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+ h1 {
+  color: #17a2b8;
+}
+input {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+.login-box input::placeholder, .signup-box input::placeholder{
+    color: rgba(255, 255, 255, .7);
+}
+
+ .btn-outline-info:hover {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#incorrect{
+    color: #DC3545;
+}
+.success{
+    color:green;
+}
+/* </signin and signup pages> */
+
+/* <home page> */
+.navbar .container .navbar-brand:hover{
+    text-decoration: none;
+}
+nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.btn-outline-warning{
+    border: 1px solid #ffc107;
+}
+.btn-outline-warning:hover{
+    text-decoration: none;
+}
+.vh-75{
+    height: 75vh;
+}
+/* </home page> */
